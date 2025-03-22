@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <!-- Raspberry Pi -->
-    <remove-project name="kernel/common" />
+    <remove-project name="device/common" />
     <project path="common" name="lineage-rpi/android_kernel_brcm_rpi" remote="github" revision="lineage-20.0" />
     <project path="vendor/brcm" name="lineage-rpi/proprietary_vendor_brcm" remote="github" revision="lineage-20.0" />
     <project path="device/brcm/rpi4" name="lineage-rpi/android_device_brcm_rpi4" />
