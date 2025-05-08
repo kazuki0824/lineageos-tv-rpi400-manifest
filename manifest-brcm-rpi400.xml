@@ -4,8 +4,8 @@
     <remove-project name="device/common" />
     <project path="common" name="lineage-rpi/android_kernel_brcm_rpi" remote="github" revision="lineage-20.0" />
     <project path="vendor/brcm" name="lineage-rpi/proprietary_vendor_brcm" remote="github" revision="lineage-20.0" />
-    <project path="device/brcm/rpi4" name="lineage-rpi/android_device_brcm_rpi4" />
-    <project path="device/brcm/rpi-common" name="lineage-rpi/android_device_brcm_rpi-common" />
+    <project path="device/brcm/rpi4" name="lineage-rpi/android_device_brcm_rpi4" remote="github" />
+    <project path="device/brcm/rpi-common" name="lineage-rpi/android_device_brcm_rpi-common" remote="github" />
 
     <!-- Graphics -->
     <remove-project name="platform/external/drm_hwcomposer" />
